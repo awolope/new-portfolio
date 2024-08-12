@@ -1,0 +1,101 @@
+.time {
+  background-color: #fcfcfc;
+  width: 120px;
+  padding: 10px;
+  border-radius: 20px;
+  color: #9da1a1;
+}
+
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  color: white;
+  text-align: center;
+}
+
+.typing-animation {
+  line-height: 1.9; /* Space between lines for better readability */
+}
+
+.line {
+  display: block; /* Ensure each line takes up full width */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid transparent; /* Invisible caret */
+  animation: typing 3s steps(30, end) forwards,
+    blink-caret 0.75s step-end infinite;
+  width: 100%; /* Full width of the container */
+  position: relative;
+  margin: 0; /* Remove any default margin */
+}
+
+.line:nth-child(1) {
+  animation-delay: 0s;
+  font-size: 38px;
+}
+
+.line:nth-child(2) {
+  animation-delay: 3s;
+  font-size: 60px; /* Matches the duration of the first line's typing animation */
+}
+
+.line:nth-child(3) {
+  animation-delay: 6s; /* Matches the duration of the first and second lines' typing animations */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.section {
+  margin-top: 100px;
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: transparent;
+  } /* No caret */
+}
+@keyframes scaleUpDown {
+  0%,
+  100% {
+    transform: scale(1); /* Original size */
+  }
+  50% {
+    transform: scale(1.2); /* Increase size by 20% */
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0; /* Add some spacing if needed */
+}
+
+.scale-image {
+  animation: scaleUpDown 5s ease-in-out infinite;
+  max-width: 60%; /* Ensure the image scales with the container */
+  height: auto; /* Maintain aspect ratio */
+}
+@media (max-width: 900px) {
+  .line:nth-child(1) {
+    font-size: 25px;
+  }
+  .line:nth-child(2) {
+    font-size: 40px;
+  }
+  .section {
+    margin-top: 50px;
+  }
+}

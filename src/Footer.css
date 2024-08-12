@@ -1,0 +1,47 @@
+.footer {
+  margin-top: 60px;
+  padding: 50px 0;
+  color: white; /* Dark text color */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: white; /* Blue color for headings */
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 16px;
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.footer-section a {
+  color: #042a53; /* Blue color for links */
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-links a {
+  font-size: 16px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #dee2e6; /* Light border for separation */
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}

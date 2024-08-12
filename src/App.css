@@ -1,0 +1,23 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  animation: backgroundColorChange 10s infinite; /* Adjust timing as needed */
+  margin: 0; /* Remove default margin if needed */
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes backgroundColorChange {
+  0% {
+    background-color: rgb(161, 186, 194);
+  }
+  50% {
+    background-color: grey;
+  }
+  100% {
+    background-color: #95aaaa;
+  }
+}
+
+.content {
+  padding: 20px;
+}
