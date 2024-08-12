@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css"; // Import the CSS file for styling
 import "./profilepic.jpg";
 import "./profilepic1.jpg";
+
 const About = () => {
   return (
     <div className="about-container">
@@ -73,7 +74,11 @@ const About = () => {
         </div>
         <div className="about-cv mt-5">
           <h2>Download My CV</h2>
-          <a href="/path/to/your/CV.pdf" download className="cv-download">
+          <a
+            href="./Awolope Feranmi Esther CV.pdf"
+            download
+            className="cv-download"
+          >
             Download CV
           </a>
         </div>
