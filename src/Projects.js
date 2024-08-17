@@ -16,7 +16,7 @@ const completedProjects = [
     imgSrc: "./timbu2.png",
     links: [
       {
-        href: "awolope-feranmi-timbucloud.netlify.app/",
+        href: "https://awolope-feranmi-timbucloud.netlify.app/",
         text: "Live Demo",
       },
       { href: "https://github.com/awolope/fashion-ecommerce", text: "GitHub" },
