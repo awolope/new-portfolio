@@ -67,6 +67,16 @@ const completedProjects = [
       { href: "https://github.com/awolope/portfolio", text: "GitHub" },
     ],
   },
+  {
+    title: "TaskPro",
+    description:
+      "TaskPro is a task management web app, designed to streamline personal and professional task organization. Using React, Bootstrap, and Node.js for the frontend, this application features a user-friendly interface for task tracking and management. Key functionalities include user authentication, task creation, and status updates. The project reflects my focus on building responsive and interactive user interfaces to enhance productivity and task management.",
+    imgSrc: "./task-managment.png",
+    links: [
+      { href: "https://herrnies-task-pro.netlify.app/", text: "Live Demo" },
+      { href: "https://github.com/awolope/react-taskpro", text: "GitHub" },
+    ],
+  },
 ];
 
 const ongoingProjects = [
@@ -78,16 +88,6 @@ const ongoingProjects = [
     links: [
       { href: "https://itja-portal.netlify.app/", text: "Live Demo" },
       { href: "https://github.com/awolope/itja-website", text: "GitHub" },
-    ],
-  },
-  {
-    title: "TaskPro(ongoing)",
-    description:
-      "TaskPro is a task management app currently under development, designed to streamline personal and professional task organization. Using React, Bootstrap, and Node.js for the frontend, this application features a user-friendly interface for task tracking and management. Key functionalities include user authentication, task creation, and status updates. The project reflects my focus on building responsive and interactive user interfaces to enhance productivity and task management.",
-    imgSrc: "./task-managment.png",
-    links: [
-      { href: "https://herrnie-taskpro.netlify.app/", text: "Live Demo" },
-      { href: "https://github.com/awolope/react-taskpro", text: "GitHub" },
     ],
   },
 ];
